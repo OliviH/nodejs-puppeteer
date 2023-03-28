@@ -22,4 +22,4 @@ app-logs: ## Show logs
 
 app-build: ## Build containers
 	@echo "$(COLOR_GREEN)Building containers...$(COLOR_NC)"
-	@docker compose --build
+	@docker compose build
