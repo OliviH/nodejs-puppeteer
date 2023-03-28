@@ -13,6 +13,8 @@ RUN apk update && apk add --no-cache nmap && \
       ttf-freefont \
       nss
 
+RUN apk add g++ make py3-pip
+
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 COPY . /app
