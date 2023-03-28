@@ -19,6 +19,7 @@
     "nodemon": "^2.0.22",
     "puppeteer": "^19.8.0",
     "qrcode": "^1.5.1",
-    "speakeasy": "^2.0.0"
+    "speakeasy": "^2.0.0",
+    "sqlite3": "^5.1.6"
   }
 }
