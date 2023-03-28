@@ -1,0 +1,11 @@
+# https://www.koyeb.com/tutorials/deploy-a-web-scraper-using-puppeteer-node-and-docker
+version: '3.3'
+
+services:
+  app:
+    build: ./app
+    container_name: "app-${PROJECT_NAME}"
+    ports:
+      - $PORT:$PORT
+    env_file:
+      - env.detail
