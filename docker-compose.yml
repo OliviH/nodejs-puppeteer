@@ -9,3 +9,6 @@ services:
       - $PORT:$PORT
     env_file:
       - env.detail
+    volumes:
+      - ./app/src:/app/src
+      - ./datas:/var/datas
